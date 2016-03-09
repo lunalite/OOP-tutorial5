@@ -11,8 +11,8 @@ public class concreteClass {
         
         //iii.
         //classA a = new classF();
-        //a.print(12,"there");
-        //a.print(88);              //After upcasting, cannot access to classF methods
+        //a.print(12,"there");       // claasF inherits all the way to class A
+        //a.print(88);              //After upcasting, cannot access to classF methods. Compile time error as clas A doesn't have the method
         
         //iv.
         //classA a = new classC();
